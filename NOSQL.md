@@ -1,6 +1,4 @@
-Okay, let's break down this comprehensive slide deck on Distributed Data Engineering, focusing on NoSQL Key-Value stores, DHTs (Chord), DynamoDB, and the underlying consistency/clock concepts.
 
-Here are detailed notes suitable for exam preparation, followed by theoretical and practical questions.
 
 **Exam Notes: Distributed Data Engineering (NoSQL, DHTs, DynamoDB)**
 
@@ -219,4 +217,4 @@ Here are detailed notes suitable for exam preparation, followed by theoretical a
 9.  Imagine a replica synchronization process using Merkle Trees. Two replicas have different root hashes. They compare the left children's hashes, which match. They then compare the right children's hashes, which differ. What does this tell you about where the data inconsistency lies? What are the next steps?
 10. Look at the DynamoDB `CreateTable` API example (slide 84). Identify the Partition Key and the Sort Key. What type of primary key is this? What do `AttributeType=S` and `KeyType=HASH/RANGE` mean?
 
-Good luck with your exam preparation!
+
